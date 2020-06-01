@@ -20,7 +20,7 @@ public class Main {
         Random r = new Random();
         for (int i = 1; i < ITEMS; i++) {
             String name = "items" + i;
-            dataBaseManager.addItem(name, r.nextInt(1000 - 100) + 100);
+            dataBaseManager.addItem(name, r.nextInt(5000 - 100) + 100);
         }
 
         Scanner s = new Scanner(System.in);
