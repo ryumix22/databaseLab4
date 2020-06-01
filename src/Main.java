@@ -22,7 +22,7 @@ public class Main {
             String name = "items" + i;
             dataBaseManager.addItem(name, r.nextInt(5000 - 100) + 100);
         }
-
+//
         Scanner s = new Scanner(System.in);
         String command = "";
         while (!command.equals("/quit")) {
